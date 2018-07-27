@@ -1,0 +1,21 @@
+{
+  "name": "twitch-irc",
+  "version": "0.0.1",
+  "addresses": {
+    "event": "127.0.0.1",
+    "chat": "127.0.0.1"
+  },
+  "ports": {
+    "event": 3000,
+    "irc": 3001,
+    "chat": 3003
+  },
+  "database": {
+    "urls": [
+      "localhost:56789"
+    ],
+    "replset": "",
+    "db_name": "opera_gather_template"
+  },
+  "channels_per_listener": 1000
+}
